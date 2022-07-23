@@ -99,15 +99,50 @@ form legend {
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+    cursor: pointer;
 }
 
 .input-radio {
     margin-right: 5px;
+    cursor:pointer;
 
 }
 
 .checkbox {
     margin: 20px 0;
+    cursor: pointer;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: #C78C19;
+    color:#FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all;
+
+}
+
+.enviar:hover {
+    background: #8d5809;
+    transform: scale(1.2);
+}
+table {
+    margin: 20px 0 40px;
+}
+th {
+    background: #555555;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
 
 footer {
