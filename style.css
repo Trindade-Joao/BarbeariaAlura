@@ -84,10 +84,10 @@ nav a:hover {
     margin-top: 10px;
 }
 
-/* main {
+.main-contato {
     width: 940px;
     margin: 0 auto;
-} */
+}
 
 form {
     margin: 40px 0
@@ -255,4 +255,50 @@ footer {
 .video {
     width: 560px;
     margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .mapa-conteudo, .conteudo-beneficios, .video, .main-contato, .produtos {
+        width: auto;
+                
+    }
+    .principal, .mapa-conteudo, .conteudo-beneficios, .video, .main-contato {
+        padding: 0 20px;
+        
+    }
+    .produtos li {
+     display: block;
+     width: auto;
+     margin: 20px 15px ;
+     
+    }
+
+    .input-padrao{
+        width: 70vw;
+
+    }
+
+    .banner {
+        margin-bottom: 20px;
+    }
+
+    .principal p {
+        text-align: justify;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;       
+    }
+    .lista-beneficios {
+        margin-bottom: 20px;
+    }
+    
+    h1 {
+        text-align: center;        
+    }
+
+    nav {
+        position: static;        
+    }
+
 }
