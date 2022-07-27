@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --cor-texto-hover: #C78C19;
+    --cor-degrade-sup: #FEFEFE;
+    --cor-degadre-inf: #888888;
+    --cor-background-cab: #BBBBBB;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: var(--cor-background-cab);
+    padding: 20px;
+    text-align: center;
+}
+
+.voltar, .agendamento {
+    text-transform:  uppercase;
+    text-decoration:  none;
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+.voltar:hover,  .agendamento:hover{
+    font-size: 1.6em;
+    color: var(--cor-texto-hover);
+    text-decoration: underline;
+}
+
+main {
+    background: linear-gradient(#FEFEFE, #888888);
+    padding: 20px 0;
+}
+
+.conteudo {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.conteudo h1 {
+    font-size: 2em;
+    text-align: center;
+    margin: 0 0 0.5em;
+    font-weight: bold;
+}
+
+.conteudo p {
+    margin: 20px 0;
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.conteudo img {
+    width: 100%;
+}
+
+.conteudo nav {
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+
+footer {
+    background-image: url('./img/bg.jpg');
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo_rodape { 
+    width: 100px;
+}
+
+footer p {
+    font-size: 0.8em;
+    color: #FFFFFF
+}
