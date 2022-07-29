@@ -11,7 +11,7 @@ header {
 
 .caixa {
     position: relative;
-    width: 940px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -40,7 +40,7 @@ nav a:hover {
 }
 
 .produtos {
-    width: 940px;
+    width: 90%;
     margin: 0 auto;
     padding: 50px 
 }
@@ -91,7 +91,7 @@ nav a:hover {
 }
 
 .main-contato {
-    width: 940px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -179,7 +179,7 @@ footer {
 .principal {
     padding: 3em 0;
     background: #fefefe;
-    width: 940px;
+    width: 90%;
     margin: 0 auto;
     
 }
@@ -211,7 +211,7 @@ footer {
 }
 
 .mapa-conteudo {
-    width: 940px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -308,4 +308,11 @@ footer {
         position: static;        
     }
 
+}
+
+@media screen and (max-width: 380px) {
+
+    nav a {
+        font-size: 1em;
+    }
 }
